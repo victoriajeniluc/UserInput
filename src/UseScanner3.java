@@ -1,0 +1,2 @@
+public class UseScanner3 {
+}

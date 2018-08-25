@@ -4,13 +4,13 @@
  *
  * @author Udayan Khattry
  */
-package com.udayan.input;
 
 import java.util.Scanner;
 
 public class UseScanner1 {
     public static void main(String[] args) {
         //Create a Scanner object.
+        // if you do not have the System.in ... it will have a compliation error!
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a byte value: ");
@@ -34,7 +34,7 @@ public class UseScanner1 {
         System.out.print("Enter true/false: ");
         boolean flag = scanner.nextBoolean(); //Accept boolean value from user
 
-        scanner.close(); //Close the scanner
+         scanner.close(); //Close the scanner
         //int i2 = scanner.nextInt(); //Throws java.lang.IllegalStateException
 
         System.out.println("---------------------------");
